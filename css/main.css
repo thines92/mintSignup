@@ -1,0 +1,149 @@
+/*
+
+================================================
+Mint Signup Page
+================================================
+
+*/
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  font-size: 14px;
+  font-family: "AvenirLTStd-Roman", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+html , body {
+  height: 100%;
+}
+.main-page {
+  height: 100%;
+  margin-top: 25px;
+  margin-left: 32%;
+  width: 36%;
+}
+nav {
+  height: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.nav-left {
+  float: left;
+  clear: right;
+}
+.nav-right li {
+  float: right;
+  list-style: none;
+  padding: 5px;
+}
+.nav-left p {
+  font-weight: bold;
+  font-size: 18px;
+}
+.logo {
+  width: 85px;
+  height: 32px;
+  margin-top: -11px;
+  margin-left: -13px;
+}
+.sign-up {
+  font-weight: bold;
+  border-right: 1px solid black;
+  padding-right: 12px !important;
+}
+.signup-form {
+  height: 842px;
+  clear: both;
+  -webkit-box-shadow: 1px 3px 8px;
+  box-shadow: 1px 3px 8px;
+  padding: 50px 25px 50px 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  float: left;
+  width: 100%;
+}
+.input-header {
+  clear: both;
+  width: 100%;
+  margin-left: 20px;
+}
+.input-header p {
+  font-size: 28px;
+}
+.left-column {
+  height: auto;
+}
+.left-column input,
+.left-column select,
+.left-column button,
+.left-column label {
+  display: block;
+  border-radius: 5px;
+}
+.left-column input {
+  width: 68%;
+  margin-top: 5px;
+  height: 30px;
+}
+.left-column label {
+  margin: 35px 0 35px 0;
+}
+.left-column select {
+  border-radius: 0 !important;
+  width: 69%;
+  height: 30px;
+  margin-top: 4px;
+}
+.zip-code {
+  width: 29%;
+}
+.left-column p {
+  font-size: 24px;
+  font-weight: bold;
+}
+.terms-box {
+  display: inline-block !important;
+  width: 15px !important;
+  height: 15px;
+}
+.terms-label {
+  display: inline !important;
+}
+.terms-label a {
+  display: inline !important;
+}
+.signup-btn {
+  color: white;
+  margin-top: 40px;
+  padding: 8px 15px 8px 15px;
+  box-shadow: none;
+  background-color: #41bfda;
+  border-radius: 3px !important;
+  font-family: "AvenirLTStd-Light", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.right-column {
+  float: right;
+  height: 100%;
+  max-height: 729px;
+  margin-top: 2%;
+  padding: 0 !important;
+  border-left: 1px solid lightgray;
+  padding-left: 15px;
+}
+.right-column p {
+  font-size: 18px;
+}
+.right-column li {
+  font-size: 12px;
+}
+.info {
+  background-color: #f5f5f5;
+  padding: 20px 20px 0px 0;
+  width: 92%;
+  margin-left: 25px;
+}
+.info p {
+  text-align: center;
+}
